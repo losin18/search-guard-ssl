@@ -7,7 +7,7 @@
 #########################
 
 set -e
-NODE_NAME=cms-elk-$1
+NODE_NAME=node-$1
 
 if [ -z "$3" ] ; then
   unset CA_PASS KS_PASS
