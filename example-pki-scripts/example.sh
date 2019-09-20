@@ -11,8 +11,8 @@ fi
 
 set -e
 ./clean.sh
-./gen_root_ca.sh opcapass oppeincms2019
-./gen_node_cert.sh 01 oppeincms2019 opcapass && ./gen_node_cert.sh 02 oppeincms2019 opcapass &&  ./gen_node_cert.sh 03 oppeincms2019 opcapass
-./gen_client_node_cert.sh admin oppeincms2019 opcapass
+./gen_root_ca.sh opcapass password
+./gen_node_cert.sh 01 password opcapass && ./gen_node_cert.sh 02 password opcapass &&  ./gen_node_cert.sh 03 password opcapass
+./gen_client_node_cert.sh admin password opcapass
 
 rm -f ./*tmp*
