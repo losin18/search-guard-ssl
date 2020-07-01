@@ -42,7 +42,7 @@
 
     <!-- deps -->
     <netty-native.version>2.0.15.Final</netty-native.version>
-    <log4j.version>2.11.1</log4j.version>
+    <log4j.version>2.13.2</log4j.version>
   </properties>
 
   <scm>
